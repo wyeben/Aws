@@ -13,7 +13,6 @@ env:
   SERVICE: learning-service
 
 jobs:
-
   build-and-deploy:
     runs-on: ${{ matrix.os }}
     strategy:
