@@ -11,7 +11,7 @@ env:
   AWS_REGION: eu-west-1
   CLUSTER: learning-cluster
   SERVICE: learning-service
-
+  
 jobs:
   build-and-deploy:
     runs-on: ${{ matrix.os }}
